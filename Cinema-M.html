@@ -1,28 +1,14 @@
 <!DOCTYPE html>
-
-
-<html>
-
+<html lang="en">
 <head>
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CINEMA Marianna</title>
+  <link rel="stylesheet" href="/styleM.css">
 </head>
-
-
 <body>
- 
-
- <title>CINEMA Marianna</title>
-
- <link rel="stylesheet" href="css/styleM.css">
-    <header>
-
-        <h1>Welcome to our Cinema</h1
-        <p>Experience the magic of cinema with us!</p>
-
-    </haeder>
-
-
-<body>
+  <!-- Хедер -->
+  <header>
   <nav>
     <ul>
       <li><a href="#Premiere of the week"> Premiere of the week</a></li>
@@ -30,26 +16,24 @@
       <li><a href="#Session schedule"> Session schedule</a></li>
     </ul>
   </nav>
+  </header>
+  
+  <!-- Premiere -->
    
-    <h1 id="Premiere of the week"> <b>Premiere of the week</b></h1>
+    <h1 id="Premiere of the week">Premiere of the week</h1>
 
   <div class="content">
     <div class="image-container">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC-UVKZesG9A3AaTALLh6EH_P-mJ2IdrrkCWTPaRGk63Bv85pahelUe-jgtmLFvAyKszA&usqp=CAU" />
     </div>
     <div class="text">
-        
-            
-        
-        <p>
-          <b>MAVKA: The Forest Song [2023]</b><br />
-
-            Young and naive forest spirit Mavka, develops feelings for a human musician, Lukas. As they grow closer to each other, an inevitable situation forces Mavka to choose between her love and her duty as a guardian of the forest.
-        </p>
+      <h3>MAVKA: The Forest Song [2023]</h3>
+      <p>
+        Young and naive forest spirit Mavka, develops feelings for a human musician, Lukas. As they grow closer to each other, an inevitable situation forces Mavka to choose between her love and her duty as a guardian of the forest.
+      </p>
+      <a href="https://www.youtube.com/watch?v=GXaMT5pX12w" target="_blank">MAVKA: The Forest Song. Official Trailer</a>
     </div>
    </div> 
-    <a href="https://www.youtube.com/watch?v=GXaMT5pX12w" target="_blank">MAVKA: The Forest Song. Official Trailer</a>
-
 
 <div class="comment-section">
     <form action="/submit" method="post">
@@ -59,37 +43,27 @@
     </form>
 </div>
 
+<!-- Сьогоднi у кiно -->
 
-<h1 id="Today to the cinema"> Today to the cinema</h1>
-   
-     
+<h2 id="Today to the cinema"> Today to the cinema</h2>
     <div class="content">
-    <div class="image-container">
-      <img src="https://upload.wikimedia.org/wikipedia/en/1/14/Marmaduke_2022_poster.jpeg"/
+      <div class="image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/14/Marmaduke_2022_poster.jpeg"/>
       </div>
-      </div> 
-       <div class="text">
+      <div class="text">
+        <h3>Marmaduke [2022]</h3>
         <p>
-        <b>Marmaduke [2022]</b></br> />
-
         Marmaduke is a lovable pet that loves his human family but cannot stay out of trouble. When a legendary dog trainer undertakes the mission of turning the undisciplined Great Dane to a world champion, the results are hilarious.
         </p>
-     
+        <a href="https://www.youtube.com/watch?v=wDXYjxxnALU" target="_blank">Marmaduke.Official Trailer</a>
+      </div>
+      <div class="comment-section">
+        <form action="submit" method="post"><label for="Leave your comment">Leave your comment:</label>
+          <input id="Leave your comment" type="text" plaseholder="Leave your comment">
+         </form>
       </div>
     </div> 
-
-        <a href="https://www.youtube.com/watch?v=wDXYjxxnALU" target="_blank">Marmaduke.Official Trailer<</a>
-       
-        <div class="comment-section">
-     
-      <form action="">
-      <label for="Leave your comment">Leave your comment:</label>
-        <input tipe= id="Leave your comment" plaseholder="Leave your comment">
-            <form action="/submit" method="post">
-        <!-- Other form elements go here -->
-        <input type="submit" value="Submit">
-        </form>
-        </div>
+        
        
         </p>
      
@@ -148,7 +122,7 @@
        </div>
     <h1 id="Today to the cinema"> Today to the cinema</h1>
 
-   <h1 id="Session schedule"> <b>Session schedule</b></h1>
+   <h2 id="Session schedule">Session schedule</h2>
       <table>
   <tr>
     <th>Movie</th>
@@ -184,7 +158,5 @@
 </table>
 
 
-
-      
 </body>
 </html>

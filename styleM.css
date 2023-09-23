@@ -1,11 +1,10 @@
-
-
 body {
-    background-color: lightblue !important;
+  background-color: lightblue !important;
 }
 
-
-
+img {
+  width: 300px;
+}
 
 /*  1 - MOVE TEXTS  ON ONE LINE  */
 
@@ -17,17 +16,14 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-left : 50px; /* Adjust the spacing between items if needed */
+  margin-left: 50px; /* Adjust the spacing between items if needed */
 }
 
 nav ul li a {
   font-size: 2.5em; /* Adjust the font size as needed */
   text-decoration: none;
-  font-family: 'Arial', sans-serif; /* Specify the font family if needed */
+  font-family: "Arial", sans-serif; /* Specify the font family if needed */
 }
-
-
-
 
 /* 2 - MOVE TEXT TO SIDE OF PICTURE  */
 
@@ -59,7 +55,8 @@ form {
 }
 
 /* Style the form label and input */
-form label, form input {
+form label,
+form input {
   display: block; /* Make label and input elements appear on separate lines */
   margin-bottom: 10px; /* Add space between label and input */
 }
@@ -74,83 +71,80 @@ form label, form input {
   /* Add more styles as needed */
 }
 
-
-
 /* 3-  SUBMIT Button */
 
 .comment-section {
-    background-color: lightgray;
-    border: 1px solid gray;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 5px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
 }
 
 .comment-section form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .comment-section label,
 .comment-section input {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .comment-section input[type="text"] {
-    width: 200px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 .comment-section input[type="submit"] {
-    background-color: #ffa500;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 3px;
-    cursor: pointer;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .comment-section input[type="submit"]:hover {
-    background-color: #ff8c00;
+  background-color: #ff8c00;
 }
 
-
-
-
-
- 
-  /* 4-  TABLE  Set background for the entire section */
+/* 4-  TABLE  Set background for the entire section */
 
 body {
-    background-color: #d3d3d3; /* Change the color as per your preference */
-} 
+  background-color: #d3d3d3; /* Change the color as per your preference */
+}
 
 /* Create margins on all sides (margin/padding) */
-body, table {
-    margin: 20px; /* Adjust the value as per your preference */
+body,
+table {
+  margin: 20px; /* Adjust the value as per your preference */
 }
 
 /* Align the table in the center */
 table {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Create column and row boxes */
-th, td {
-    border: 3px solid #ccc; /* Border style and color, adjust as needed */
-    padding: 10px; /* Adjust the padding value as per your preference */
+th,
+td {
+  border: 3px solid #ccc; /* Border style and color, adjust as needed */
+  padding: 10px; /* Adjust the padding value as per your preference */
 }
 
 /* Increase internal margins in each cell of the table */
-th, td {
-    margin: 10px; /* Adjust the margin value as per your preference */
+th,
+td {
+  margin: 10px; /* Adjust the margin value as per your preference */
 }
 
 /* Set internal indentation to all table cells */
-th, td {
-    text-indent: 10px; /* Adjust the indentation value as per your preference */
+th,
+td {
+  text-indent: 10px; /* Adjust the indentation value as per your preference */
 }
